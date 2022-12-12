@@ -1,6 +1,6 @@
 ﻿//Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечетных позициях.
 
-Console.WriteLine("Введите число - размер будущего массива");
+Console.WriteLine("Введите число - размер будущего массива:");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
