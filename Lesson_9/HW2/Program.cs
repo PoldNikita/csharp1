@@ -1,4 +1,5 @@
-﻿int[,] table = new int[6, 6];
+﻿//Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+int[,] table = new int[6, 6];
 FillArrayRandom(table);
 PrintArray(table);
 Console.WriteLine();
